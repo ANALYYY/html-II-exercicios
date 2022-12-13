@@ -5,22 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="arquivo.css">
     <title>Sugestão de clima</title>
 </head>
 
 <body>
-    <div class="a">
+    <header class="a">
         <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
+    </header>
+    <section class="b">
+        <article class="c">
+            <form action="">
+                <label for="name">Nome</label><br>
+                <input type="text" placeholder="nome completo" required = "true">
+                <br> <br>
 
-<!-- Seu formukário aqui!-->
-        </div>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="email@gmail.com" required ="true">
+                <br> <br>
 
-    </div>
-    <div class="e">Footer</div>
+                <label for="clima">Clima</label><br>
+                <select name="clima" id="tempo" required="true">
+                <option value="">Selecione</option>
+                <option value="">Ensolarado</option>
+                <option value="">Nublado</option>
+                <option value="">Chuvoso</option>
+                </select>
+
+                <!--<br><br>-->
+                <!--<label for="sugestao">Sugestão de clima</label>-->
+                <!--<input type="text" placeholder="Como está o clima" required ="true">-->
+
+                <br><br>
+              <button class="button" type="submit">Enviar</button>
+            <!-- Seu formukário aqui!-->
+            </form>
+
+        </article>
+
+    </section>
+    <footer class="footer"> &copy;<i>direitos reservados</i> </footer>
 
 </body>
 
