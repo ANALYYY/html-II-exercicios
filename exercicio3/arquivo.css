@@ -1,0 +1,86 @@
+.button{
+padding: 3px 8px;
+width: 150px;
+height: 25px;
+box-shadow: 1px 1px 8px 1px goldenrod;
+border-radius: 10px;
+background-color: #333;
+color: white;
+align-items: center;
+}
+.button:hover{
+  background: linear-gradient(
+    #00c0ff,
+    #ffcf00,
+    #fc4f4f,
+    #00c0ff);
+}
+
+input{
+  width: 147px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+select{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  header, .a{
+    height: 50px;
+    background: linear-gradient(
+    #00c0ff,
+    #ffcf00,
+    #fc4f4f,
+    #00c0ff);
+    width: 100vw;
+    text-align: center;
+    color: white;
+    top: 0;
+    left: 0;
+  }
+  
+  main, .b{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  section{
+   background: linear-gradient(
+    #84cefa, 
+    deepskyblue,
+    blue
+   );
+    width: 100%;
+    padding: 20px 20px 0 20px;
+  }
+  
+  article, .d{
+    background-color: #84cefa, deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 2%;
+    padding-left: 1%;
+  }
+  
+  footer{
+    height: 25px;
+    padding: 10px 0 0 10px;
+    text-align: center;
+    color: black;
+    background-color: deepskyblue;
+  }
